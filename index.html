@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Designer Portfolio</title>
+    <meta
+      name="description"
+      content="Minimal multi-page portfolio for a graphic and web designer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-frame" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="#top">ALEX STUDIO</a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero reveal">
+        <p class="hero__year">2025</p>
+        <h1 class="hero__title">PORTFOLIO</h1>
+        <p class="hero__subtitle">Graphic &amp; Web Designer</p>
+
+        <div class="hero__visual" role="img" aria-label="Decorative abstract sphere"></div>
+      </section>
+
+      <section id="about" class="about reveal">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__grid">
+          <figure class="about__photo-wrap">
+            <img
+              class="about__photo"
+              src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80"
+              alt="Portrait of designer"
+            />
+          </figure>
+
+          <article class="about__text">
+            <p>
+              I design visual identities and digital experiences with an emphasis on clean
+              structure, typography, and interaction details. I combine graphic thinking and
+              product logic to craft clear, memorable interfaces.
+            </p>
+          </article>
+
+          <aside class="about__meta" aria-label="Skills and experience">
+            <div>
+              <h3>Skills</h3>
+              <ul>
+                <li>Brand Identity</li>
+                <li>UI/UX Design</li>
+                <li>Web Design Systems</li>
+                <li>Art Direction</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Experience</h3>
+              <ul>
+                <li>5+ years freelance</li>
+                <li>40+ shipped projects</li>
+                <li>Remote studio collaboration</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="projects" class="projects reveal">
+        <h2 class="section-title">Selected Projects</h2>
+        <div class="projects__grid">
+          <a class="project-card" href="case1.html">
+            <span class="project-card__number">01</span>
+            <h3>Nova Cosmetics</h3>
+            <p>Brand refresh and landing page design.</p>
+          </a>
+
+          <a class="project-card" href="case2.html">
+            <span class="project-card__number">02</span>
+            <h3>Aurora Motion</h3>
+            <p>Color-forward concept site for a motion design studio.</p>
+          </a>
+
+          <a class="project-card" href="case1.html">
+            <span class="project-card__number">03</span>
+            <h3>North Atelier</h3>
+            <p>E-commerce concept with minimal UI.</p>
+          </a>
+
+          <a class="project-card" href="case1.html">
+            <span class="project-card__number">04</span>
+            <h3>Arco Interiors</h3>
+            <p>Visual identity and social campaign kit.</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal">
+      <p>© 2025 Alex Studio — Graphic &amp; Web Designer</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
